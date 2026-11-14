@@ -1,0 +1,42 @@
+﻿# Python environment and cache
+venv/
+myenv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Editor and operating system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Local environment and logs
+.env
+.env.*
+*.log
+
+# Generated datasets (recreate using project scripts)
+data/processed/
+
+# Ignore intermediate result tables by default
+results/tables/*
+
+# Keep important research summary tables
+!results/tables/elec2_final_research_summary.csv
+!results/tables/gradual_ablation_test_summary.csv
+!results/tables/gradual_detector_test_summary.csv
+!results/tables/gradual_hybrid_test_summary.csv
+!results/tables/gradual_all_detectors_comparison.csv
+!results/tables/hybrid_test_summary.csv
+!results/tables/hybrid_variant_comparison.csv
+!results/tables/multi_seed_detector_summary.csv
+!results/tables/multi_seed_signal_summary_v2.csv
+
+# Keep selected speed robustness results
+!results/tables/speed_tests/
+results/tables/speed_tests/*
+!results/tables/speed_tests/common_exposure_false_alarm_summary.csv
+!results/tables/speed_tests/speed_all_detectors_comparison_25_seeds.csv
+!results/tables/speed_tests/speed_robustness_new_seeds_summary.csv
+!results/tables/speed_tests/statistical_comparison_25_seeds.csv

@@ -1,0 +1,4 @@
+speed,TP,FP,FN,precision,recall,F1,mean_delay_from_onset,median_delay_from_onset,mean_delay_from_midpoint,mean_delay_from_completion,false_alarms_per_1000_records,streams_with_pre_drift_false_alarm
+fast,20,14,0,0.5882352941176471,1.0,0.7407407407407407,62.5,67.5,-37.5,-137.5,1.745635910224439,4
+medium,20,14,0,0.5882352941176471,1.0,0.7407407407407407,94.75,101.0,-105.25,-305.25,1.745635910224439,4
+slow,20,14,0,0.5882352941176471,1.0,0.7407407407407407,121.6,125.5,-278.4,-678.4,1.745635910224439,4

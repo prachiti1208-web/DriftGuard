@@ -1,0 +1,13 @@
+Metric,Value
+Baseline prequential accuracy (%),83.74480953240658
+Total monitoring records,43913.0
+Alert records,20679.0
+Alert percentage (%),47.0908387038007
+Accuracy during alerts (%),80.48261521350162
+Accuracy without alerts (%),86.67039683222863
+Future accuracy after alert (%),81.64150943396227
+Future accuracy after no alert (%),85.72566371681415
+Future accuracy difference (percentage points),4.084154282851884
+Alert-start windows,106.0
+Non-alert-start windows,113.0
+Frozen hybrid threshold,0.30097228092279815

@@ -1,0 +1,13 @@
+speed,comparison,n_seeds,driftguard_mean_delay,conventional_mean_delay,mean_paired_difference,median_paired_difference,bootstrap_95_ci_lower,bootstrap_95_ci_upper,driftguard_faster,equal_delay,driftguard_slower,wilcoxon_statistic,p_value,holm_adjusted_p,significant_after_holm,interpretation
+fast,DriftGuard_vs_DDM,25,59.92,61.76,-1.84,1.0,-13.92,8.6,9,3,13,119.0,0.8075618372308673,1.0,False,DriftGuard faster on average
+fast,DriftGuard_vs_EDDM,25,59.92,119.24,-59.32,-58.0,-71.921,-46.72,24,0,1,1.0,1.387313159551572e-05,0.0001466834741110275,True,DriftGuard faster on average
+fast,DriftGuard_vs_ADWIN,25,59.92,128.6,-68.68,-67.0,-80.48100000000001,-58.4,25,0,0,0.0,1.2256936021619928e-05,0.0001466834741110275,True,DriftGuard faster on average
+fast,DriftGuard_vs_Page-Hinkley,25,59.92,234.72,-174.8,-170.0,-184.68,-165.72,25,0,0,0.0,1.2223622842585624e-05,0.0001466834741110275,True,DriftGuard faster on average
+medium,DriftGuard_vs_DDM,25,94.12,93.88,0.24,0.0,-19.28,18.92,11,2,12,126.5,0.7264642971972427,1.0,False,Conventional detector faster on average
+medium,DriftGuard_vs_EDDM,25,94.12,165.64,-71.52,-77.0,-91.28,-49.96,24,0,1,11.0,4.5593995401525015e-05,0.0002034822667816214,True,DriftGuard faster on average
+medium,DriftGuard_vs_ADWIN,25,94.12,195.16,-101.04,-96.0,-116.521,-87.16,25,0,0,0.0,1.2268056633232531e-05,0.0001466834741110275,True,DriftGuard faster on average
+medium,DriftGuard_vs_Page-Hinkley,25,94.12,327.88,-233.76,-226.0,-246.601,-222.04,25,0,0,0.0,1.2268056633232531e-05,0.0001466834741110275,True,DriftGuard faster on average
+slow,DriftGuard_vs_DDM,25,119.16,142.16,-23.0,-20.0,-51.72,4.8,16,3,6,64.0,0.04242056424977089,0.12726169274931268,False,DriftGuard faster on average
+slow,DriftGuard_vs_EDDM,25,119.16,225.92,-106.76,-113.0,-132.283,-77.48,24,0,1,10.0,4.069645335632428e-05,0.0002034822667816214,True,DriftGuard faster on average
+slow,DriftGuard_vs_ADWIN,25,119.16,291.16,-172.0,-174.0,-194.881,-150.64,25,0,0,0.0,1.2279185361336645e-05,0.0001466834741110275,True,DriftGuard faster on average
+slow,DriftGuard_vs_Page-Hinkley,25,119.16,461.32,-342.16,-337.0,-364.161,-320.999,25,0,0,0.0,1.2279185361336645e-05,0.0001466834741110275,True,DriftGuard faster on average

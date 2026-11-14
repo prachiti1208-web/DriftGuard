@@ -1,0 +1,5 @@
+detector,TP,FP,FN,precision,recall,F1,mean_delay_from_onset,median_delay_from_onset,mean_delay_from_midpoint,mean_delay_from_completion,false_alarms_per_1000_records,streams_with_pre_drift_false_alarm
+ADWIN,5,0,0,1.0,1.0,1.0,199.0,199.0,-1.0,-201.0,0.0,0
+DDM,5,1,0,0.8333333333333334,1.0,0.9090909090909091,109.6,124.0,-90.4,-290.4,0.3333333333333333,1
+EDDM,5,0,0,1.0,1.0,1.0,190.0,192.0,-10.0,-210.0,0.0,0
+Page-Hinkley,5,0,0,1.0,1.0,1.0,343.6,334.0,143.6,-56.4,0.0,0

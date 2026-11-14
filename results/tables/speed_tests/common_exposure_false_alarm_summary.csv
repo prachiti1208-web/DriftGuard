@@ -1,0 +1,16 @@
+speed,detector,streams,false_alarm_episodes,streams_with_false_alarms,false_alarm_stream_percentage,total_common_exposure_records,false_alarms_per_1000_records
+fast,ADWIN,25,0,0,0.0,10025,0.0
+fast,DDM,25,13,5,20.0,10025,1.2967581047381547
+fast,DriftGuard,25,14,4,16.0,10025,1.396508728179551
+fast,EDDM,25,0,0,0.0,10025,0.0
+fast,Page-Hinkley,25,0,0,0.0,10025,0.0
+medium,ADWIN,25,0,0,0.0,10025,0.0
+medium,DDM,25,13,5,20.0,10025,1.2967581047381547
+medium,DriftGuard,25,14,4,16.0,10025,1.396508728179551
+medium,EDDM,25,0,0,0.0,10025,0.0
+medium,Page-Hinkley,25,0,0,0.0,10025,0.0
+slow,ADWIN,25,0,0,0.0,10025,0.0
+slow,DDM,25,13,5,20.0,10025,1.2967581047381547
+slow,DriftGuard,25,14,4,16.0,10025,1.396508728179551
+slow,EDDM,25,0,0,0.0,10025,0.0
+slow,Page-Hinkley,25,0,0,0.0,10025,0.0

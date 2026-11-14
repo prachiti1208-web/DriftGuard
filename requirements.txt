@@ -1,0 +1,6 @@
+numpy
+pandas
+scikit-learn
+matplotlib
+scipy
+river==0.26.1
